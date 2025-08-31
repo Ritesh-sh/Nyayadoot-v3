@@ -35,7 +35,7 @@ app.add_middleware(
 app.include_router(router)
 
 # Serve the frontend static files
-app.mount("/nyayadoot", StaticFiles(directory="../l-frontend/dist", html=True), name="frontend")
+#app.mount("/nyayadoot", StaticFiles(directory="../l-frontend/dist", html=True), name="frontend")
 
 # Root endpoint
 @app.get("/")
